@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace ServerKit.UI
 {
-    public partial class Form1 : Form
+    public partial class FrmMain : Form
     {
         ServerKitController objController = new ServerKitController();
-        public Form1()
+        public FrmMain()
         {
             InitializeComponent();
         }
